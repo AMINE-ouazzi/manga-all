@@ -19,6 +19,15 @@
     "nextPageSelector": ".pagination .page-item a[rel='next']",
     "nextPageAttr": "href"
   },
+  "search": {
+    "url": "/ajax/search?keyword=",
+    "listSelector": "a.group",
+    "titleSelector": "h4",
+    "coverSelector": "img",
+    "coverAttr": "src",
+    "linkSelector": "",
+    "linkAttr": "href"
+  },
   "pages": {
     "listSelector": ".reading-content .image_list img",
     "imageAttr": "src"
