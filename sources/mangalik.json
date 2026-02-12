@@ -1,7 +1,7 @@
 {
   "name": "Lek Manga",
   "baseUrl": "https://lek-manga.net",
-  "cloudfar": "yes",
+  "cloudfar": "oui",
 
   "home": {
     "listSelector": ".page-item-detail",
