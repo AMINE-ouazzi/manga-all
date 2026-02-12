@@ -1,0 +1,39 @@
+{
+  "name": "Lek Manga",
+  "baseUrl": "https://lek-manga.net",
+  "cloudfar": "yes",
+
+  "home": {
+    "listSelector": ".page-item-detail",
+    "titleSelector": "h3 a",
+    "coverSelector": ".item-thumb img",
+    "coverAttr": "src",
+    "linkSelector": "h3 a",
+    "linkAttr": "href"
+  },
+
+  "chapters": {
+    "listSelector": "li.wp-manga-chapter",
+    "titleSelector": "a",
+    "linkSelector": "a",
+    "linkAttr": "href",
+    "dateSelector": ".chapter-release-date i",
+    "nextPageSelector": ".pagination .next",
+    "nextPageAttr": "href"
+  },
+
+  "search": {
+    "url": "/?s=",
+    "listSelector": ".c-tabs-item__content",
+    "titleSelector": "h3 a",
+    "coverSelector": ".tab-thumb img",
+    "coverAttr": "src",
+    "linkSelector": "h3 a",
+    "linkAttr": "href"
+  },
+
+  "pages": {
+    "listSelector": ".reading-content img",
+    "imageAttr": "src"
+  }
+}
