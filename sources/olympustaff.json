@@ -1,6 +1,7 @@
 {
   "name": "Olympus Staff",
   "baseUrl": "https://olympustaff.com",
+  "cloudfar": "no",
   "home": {
     "listSelector": ".last-chapter .box",
     "titleSelector": ".info h3",
@@ -10,14 +11,16 @@
     "linkAttr": "href"
   },
   "chapters": {
-    "listSelector": ".info ul li",
-    "titleSelector": "a[href]",
-    "linkSelector": "a[href]",
-    "linkAttr": "href"
+    "listSelector": "#chaptersContainer .chapter-card",
+    "titleSelector": ".chapter-number",
+    "linkSelector": "a.chapter-link",
+    "linkAttr": "href",
+    "dateSelector": ".chapter-date span",
+    "nextPageSelector": ".pagination .page-item a[rel='next']",
+    "nextPageAttr": "href"
   },
   "pages": {
-    "listSelector": ".post-body img",
-    "imageSelector": "img",
+    "listSelector": ".reading-content .image_list img",
     "imageAttr": "src"
   }
 }
