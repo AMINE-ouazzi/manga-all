@@ -1,0 +1,23 @@
+{
+  "name": "Olympus Staff",
+  "baseUrl": "https://olympustaff.com",
+  "home": {
+    "listSelector": ".last-chapter .box",
+    "titleSelector": ".info h3",
+    "coverSelector": ".imgu img",
+    "coverAttr": "src",
+    "linkSelector": ".imgu a",
+    "linkAttr": "href"
+  },
+  "chapters": {
+    "listSelector": ".info ul li",
+    "titleSelector": "a[href]",
+    "linkSelector": "a[href]",
+    "linkAttr": "href"
+  },
+  "pages": {
+    "listSelector": ".post-body img",
+    "imageSelector": "img",
+    "imageAttr": "src"
+  }
+}
